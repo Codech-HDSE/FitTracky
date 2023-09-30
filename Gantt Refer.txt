@@ -1,0 +1,12 @@
+01. Defining an Idea   
+02. Project Proposal  
+03. Git and Github
+04. Android Studio 
+05. Defining the Programing Language
+06. Identify the system requirements
+07. Creating a Wireframe
+08. Designing the UI
+09. Implementing the App
+10. Testing the App
+11. Finalizing the App
+12. Final Report
