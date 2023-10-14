@@ -14,6 +14,7 @@ class Activity2 : AppCompatActivity() {
         secondAcButton.setOnClickListener{
             val Intent = Intent(this, Activity3::class.java)
             startActivity(Intent)
+            //test
         }
     }
 }
