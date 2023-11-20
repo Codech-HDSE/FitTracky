@@ -4,16 +4,50 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
+
+//    Step 1 - Add Bottom Navigation View
+//    Step 2 - Create a replace fragment method
+//    Step 3 - Create onItemListener
+
+//    Step 1
+    private lateinit var bottomNavigationView: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val secondAcButton = findViewById<Button>(R.id.second_act_btn)
-        secondAcButton.setOnClickListener{
-            val Intent = Intent(this, Activity2::class.java)
-            startActivity(Intent)
+//        Completing step 1
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
+
+        bottomNavigationView.setOnItemSelectedListener { menuItem ->
+            when(menuItem.itemId){
+                R.id.bottom_home -> {
+                    replaceFragment(HomeFragment())
+                    true
+                }
+
+                R.id.bottom_Exercise -> {
+                    replaceFragment(ExerciseFragment())
+                    true
+                }
+
+                R.id.bottom_profile -> {
+                    replaceFragment(ProfileFragment())
+                    true
+                }
+                else -> false
+            }
         }
+
+        replaceFragment(HomeFragment())
+
+
+    }
+
+    private fun replaceFragment(fragment: Fragment){
+        supportFragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit()
     }
 }
