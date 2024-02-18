@@ -7,15 +7,6 @@
     tools:context=".ExerciseFragment">
 
     <!-- TODO: Update blank fragment layout -->
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:text="Exercise Fragment"-->
-<!--        android:textSize="36sp"-->
-<!--        android:textColor="@color/blue"-->
-<!--        android:gravity="center"-->
-<!--        />-->
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

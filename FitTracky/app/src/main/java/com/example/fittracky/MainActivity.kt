@@ -1,9 +1,7 @@
 package com.example.fittracky
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
@@ -35,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.bottom_profile -> {
-                    replaceFragment(ProfileFragment())
+                    replaceFragment(BMIFragment())
                     true
                 }
                 else -> false
