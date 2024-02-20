@@ -44,6 +44,7 @@
                 android:layout_height="160dp"
                 android:layout_margin="20dp"
                 app:cardCornerRadius="20dp"
+                android:id="@+id/absCardView"
                 app:cardElevation="10dp">
 
                 <LinearLayout

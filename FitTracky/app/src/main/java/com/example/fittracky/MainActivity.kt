@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnItemSelectedListener { menuItem ->
             when(menuItem.itemId){
                 R.id.bottom_home -> {
-                    replaceFragment(HomeFragment())
+                    replaceFragment(StepsCounterFragment())
                     true
                 }
 
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
-                R.id.bottom_profile -> {
+                R.id.bottom_bmi -> {
                     replaceFragment(BMIFragment())
                     true
                 }
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        replaceFragment(HomeFragment())
+        replaceFragment(StepsCounterFragment())
 
 
     }
