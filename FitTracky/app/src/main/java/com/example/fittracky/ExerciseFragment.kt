@@ -47,6 +47,21 @@ class ExerciseFragment : Fragment() {
             startActivity(intent)
         }
 
+        binding.tricepsCardView.setOnClickListener {
+            val intent = Intent(requireContext(), TricepsActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.legsCardView.setOnClickListener {
+            val intent = Intent(requireContext(), LegsActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.shouldersCardView.setOnClickListener {
+            val intent = Intent(requireContext(), ShouldersActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onDestroyView() {
