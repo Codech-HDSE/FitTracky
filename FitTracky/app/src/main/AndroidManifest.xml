@@ -16,25 +16,25 @@
         android:theme="@style/Theme.FitTracky"
         tools:targetApi="31">
         <activity
-            android:name=".TricepsActivity"
+            android:name=".Exercises.TricepsActivity"
             android:exported="false" />
         <activity
-            android:name=".ChestActivity"
+            android:name=".Exercises.ChestActivity"
             android:exported="false" />
         <activity
-            android:name=".BicepsActivity"
+            android:name=".Exercises.BicepsActivity"
             android:exported="false" />
         <activity
-            android:name=".BackActivity"
+            android:name=".Exercises.BackActivity"
             android:exported="false" />
         <activity
-            android:name=".ShouldersActivity"
+            android:name=".Exercises.ShouldersActivity"
             android:exported="false" />
         <activity
-            android:name=".LegsActivity"
+            android:name=".Exercises.LegsActivity"
             android:exported="false" />
         <activity
-            android:name=".AbsActivity"
+            android:name=".Exercises.AbsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

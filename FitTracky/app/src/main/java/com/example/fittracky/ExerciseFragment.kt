@@ -7,7 +7,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
+import com.example.fittracky.Exercises.AbsActivity
+import com.example.fittracky.Exercises.BackActivity
+import com.example.fittracky.Exercises.BicepsActivity
+import com.example.fittracky.Exercises.ChestActivity
+import com.example.fittracky.Exercises.LegsActivity
+import com.example.fittracky.Exercises.ShouldersActivity
+import com.example.fittracky.Exercises.TricepsActivity
 import com.example.fittracky.databinding.FragmentExerciseBinding
 
 class ExerciseFragment : Fragment() {

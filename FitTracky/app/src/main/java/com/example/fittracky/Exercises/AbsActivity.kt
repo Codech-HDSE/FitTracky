@@ -1,4 +1,4 @@
-package com.example.fittracky
+package com.example.fittracky.Exercises
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.viewpager.widget.ViewPager
+import com.example.fittracky.R
 
 class AbsActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
 

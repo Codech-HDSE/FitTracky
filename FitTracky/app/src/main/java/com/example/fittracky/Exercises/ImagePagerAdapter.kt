@@ -1,4 +1,4 @@
-package com.example.fittracky
+package com.example.fittracky.Exercises
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 import com.bumptech.glide.Glide
+import com.example.fittracky.R
 
 class ImagePagerAdapter(private val context: Context, private val imageList: List<Int>, private val titleList: List<String>) : PagerAdapter() {
 
