@@ -79,6 +79,7 @@
                 android:layout_height="160dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="20dp"
+                android:id="@+id/backCardView"
                 app:cardElevation="10dp">
 
                 <LinearLayout
@@ -112,6 +113,7 @@
                 android:layout_height="160dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="20dp"
+                android:id="@+id/bicepsCardView"
                 app:cardElevation="10dp">
 
                 <LinearLayout
@@ -145,6 +147,7 @@
                 android:layout_height="160dp"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="20dp"
+                android:id="@+id/chestCardView"
                 app:cardElevation="10dp">
 
                 <LinearLayout

@@ -16,6 +16,15 @@
         android:theme="@style/Theme.FitTracky"
         tools:targetApi="31">
         <activity
+            android:name=".ChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BicepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BackActivity"
+            android:exported="false" />
+        <activity
             android:name=".AbsActivity"
             android:exported="false" />
         <activity

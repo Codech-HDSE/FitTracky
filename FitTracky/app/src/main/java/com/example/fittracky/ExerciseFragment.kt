@@ -27,21 +27,26 @@ class ExerciseFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Set click listener using View Binding
-//        binding.absCardView.setOnClickListener {
-//            // Navigate to AbsFragment
-//            // Ensure you have the appropriate action ID from your navigation graph
-//            findNavController().navigate(R.id.abs_fragment)
-//        }
-
         binding.absCardView.setOnClickListener {
             val intent = Intent(requireContext(), AbsActivity::class.java)
             startActivity(intent)
         }
 
+        binding.bicepsCardView.setOnClickListener {
+            val intent = Intent(requireContext(), BicepsActivity::class.java)
+            startActivity(intent)
+        }
 
-        // Handle clicks for other exercises if needed
-        // ...
+        binding.backCardView.setOnClickListener {
+            val intent = Intent(requireContext(), BackActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.chestCardView.setOnClickListener {
+            val intent = Intent(requireContext(), ChestActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onDestroyView() {
