@@ -16,7 +16,9 @@
         android:theme="@style/Theme.FitTracky"
         tools:targetApi="31">
         <activity
-<<<<<<< Updated upstream
+            android:name=".TricepsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChestActivity"
             android:exported="false" />
         <activity
@@ -24,15 +26,12 @@
             android:exported="false" />
         <activity
             android:name=".BackActivity"
-=======
-            android:name=".TricepsActivity"
             android:exported="false" />
         <activity
             android:name=".ShouldersActivity"
             android:exported="false" />
         <activity
             android:name=".LegsActivity"
->>>>>>> Stashed changes
             android:exported="false" />
         <activity
             android:name=".AbsActivity"
