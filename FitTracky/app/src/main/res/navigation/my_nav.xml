@@ -22,4 +22,10 @@
         android:name="com.example.fittracky.BMIFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_bmi" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/abs_fragment"-->
+<!--        android:name="com.example.fittracky.AbsFragment"-->
+<!--        android:label="fragment_abs"-->
+<!--        tools:layout="@layout/fragment_abs" />-->
 </navigation>

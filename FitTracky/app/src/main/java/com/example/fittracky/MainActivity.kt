@@ -48,4 +48,11 @@ class MainActivity : AppCompatActivity() {
     private fun replaceFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit()
     }
+
+//    If Framelayout is changed to fragment container
+//    private fun replaceFragment(fragment: Fragment){
+//        supportFragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragment).commit()
+//    }
+
+
 }

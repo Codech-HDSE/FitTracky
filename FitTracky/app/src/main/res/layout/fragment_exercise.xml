@@ -58,7 +58,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:layout_marginTop="2dp"
-                        android:src="@drawable/packs"
+                        android:src="@drawable/lying_knee_raise"
                         />
 
                     <!-- Name -->
