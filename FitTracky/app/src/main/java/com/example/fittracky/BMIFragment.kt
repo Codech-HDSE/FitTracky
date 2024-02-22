@@ -23,8 +23,8 @@ class BMIFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.WeightPicker.minValue=30
-        binding.WeightPicker.maxValue=150
+        binding.WeightPicker.minValue=10
+        binding.WeightPicker.maxValue=200
 
         binding.heightPicker.minValue=100
         binding.heightPicker.maxValue=250
@@ -60,11 +60,11 @@ val height=binding.heightPicker.value
     private fun healthyMessage(bmi: Double): String {
 
 
-        if(bmi <18.5)
+        if(bmi <= 18.5)
             return "Underweight"
-        if(bmi <25.0)
+        if(bmi <= 25.0)
             return "Healthy"
-        if(bmi <30.0)
+        if(bmi <= 30.0)
             return "Overweight"
         return "Obese"
 

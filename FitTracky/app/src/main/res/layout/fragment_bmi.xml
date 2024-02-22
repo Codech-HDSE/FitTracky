@@ -14,23 +14,29 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="BMI Calculater"
-
+        android:textStyle="bold"
         android:textColor="@color/blue"
         style="@android:style/TextAppearance.Material.Headline"
-        android:textSize="36dp" />
+        android:textSize="36dp"
+        android:padding="16dp"
+        android:layout_marginTop="24dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="30dp">
+        android:padding="30dp"
+        android:layout_marginTop="100dp"
+        >
 
         <TextView
             style="@android:style/TextAppearance.Material.Body1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Height"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:layout_marginStart="20dp" />
 
         <NumberPicker
             android:id="@+id/heightPicker"
@@ -48,7 +54,7 @@
             style="@android:style/TextAppearance.Material.Body1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="25dp"
+            android:layout_marginStart="30dp"
             android:text="Weight"
             android:textSize="20dp" />
 
