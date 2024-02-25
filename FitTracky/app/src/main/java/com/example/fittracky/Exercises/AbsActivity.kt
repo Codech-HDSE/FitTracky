@@ -25,7 +25,7 @@ class AbsActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
         "Abs/Decline-Sit-up.gif",
 
         "Abs/Dumbbell-Side-Bend.gif",
-        "Abs/Hanging-Side-Knee-Raises.gif",
+        "Abs/Hanging-Knee-Raises.gif",
         "Abs/Kneeling-Cable-Crunch.gif",
         "Abs/Landmine-Twist.gif",
         "Abs/Lying-Leg-Raise.gif",
