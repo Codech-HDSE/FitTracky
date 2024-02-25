@@ -23,11 +23,13 @@ class AbsActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
         "Abs/Captains-Chair-Leg-Raise.gif",
         "Abs/Crunch-With-Leg-Raise.gif",
         "Abs/Decline-Sit-up.gif",
+
         "Abs/Dumbbell-Side-Bend.gif",
         "Abs/Hanging-Side-Knee-Raises.gif",
         "Abs/Kneeling-Cable-Crunch.gif",
         "Abs/Landmine-Twist.gif",
         "Abs/Lying-Leg-Raise.gif",
+
         "Abs/Lying-Scissor-Kick.gif",
         "Abs/Mountain-climber.gif",
         "Abs/Oblique-Floor-Crunches.gif",
