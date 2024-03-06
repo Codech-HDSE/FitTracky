@@ -112,5 +112,3 @@ class AbsActivity : AppCompatActivity(), ViewPager.OnPageChangeListener {
 
     override fun onPageScrollStateChanged(state: Int) {}
 }
-
-
