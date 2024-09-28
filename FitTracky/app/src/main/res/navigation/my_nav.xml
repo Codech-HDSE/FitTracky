@@ -7,25 +7,26 @@
 
     <fragment
         android:id="@+id/home_fragment"
-        android:name="com.example.fittracky.HomeFragment"
+        android:name="com.example.fittracky.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/exercise_fragment"
-        android:name="com.example.fittracky.ExerciseFragment"
+        android:name="com.example.fittracky.fragments.ExerciseFragment"
         android:label="fragment_exercise"
         tools:layout="@layout/fragment_exercise" />
 
     <fragment
         android:id="@+id/bmi_fragment"
-        android:name="com.example.fittracky.BMIFragment"
-        android:label="fragment_setting"
+        android:name="com.example.fittracky.fragments.BMIFragment"
+        android:label="fragment_bmi"
         tools:layout="@layout/fragment_bmi" />
 
-<!--    <fragment-->
-<!--        android:id="@+id/abs_fragment"-->
-<!--        android:name="com.example.fittracky.AbsFragment"-->
-<!--        android:label="fragment_abs"-->
-<!--        tools:layout="@layout/fragment_abs" />-->
+    <fragment
+        android:id="@+id/bottom_history"
+        android:name="com.example.fittracky.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+
 </navigation>

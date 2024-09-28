@@ -7,13 +7,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BMIFragment">
+    tools:context=".fragments.BMIFragment">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="BMI Calculater"
+        android:text="BMI Calculator"
         android:textStyle="bold"
         android:textColor="@color/blue"
         style="@android:style/TextAppearance.Material.Headline"

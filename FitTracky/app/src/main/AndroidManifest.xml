@@ -16,28 +16,28 @@
         android:theme="@style/Theme.FitTracky"
         tools:targetApi="31">
         <activity
-            android:name=".Exercises.TricepsActivity"
+            android:name=".view.Exercises.TricepsActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.ChestActivity"
+            android:name=".view.Exercises.ChestActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.BicepsActivity"
+            android:name=".view.Exercises.BicepsActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.BackActivity"
+            android:name=".view.Exercises.BackActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.ShouldersActivity"
+            android:name=".view.Exercises.ShouldersActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.LegsActivity"
+            android:name=".view.Exercises.LegsActivity"
             android:exported="false" />
         <activity
-            android:name=".Exercises.AbsActivity"
+            android:name=".view.Exercises.AbsActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
